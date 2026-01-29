@@ -26,7 +26,7 @@ When passing psm argument into tesseract configuration, we need to make sure we 
 ```bash
 # Example use
 text = pytesseract.image_to_string(thresh, config="--psm 6")
-``
+```
 
 | PSM  | Use case                  |
 | ---- | ------------------------- |
